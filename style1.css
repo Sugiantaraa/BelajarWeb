@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+}
+
+#header-utama {
+    text-align: center;
+    padding: 20px;
+    background:rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+}
+
+#container-utama {
+    display: flex;
+    gap: 20px;
+}
+
+#menu-navigasi {
+    width: 200px;
+}
+
+#menu-navigasi ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-navigasi a {
+    display: block;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+}
+
+#menu-navigasi a:hover, #menu-navigasi a.active {
+    background: rgba(255, 255, 255, 0.35);
+    font-weight: bold;
+    transform: translateX(5px);
+}
+
+#konten-utama {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-section {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tb-biodata {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+.tb-biodata th, .tb-biodata td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+.grid-teman {
+    display: flex;
+    gap: 15px;
+}
+
+.card-teman {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.img-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+#sidebar {
+    width: 220px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.img-prestasi {
+    width: 100%;
+    border-radius: 10px;
+}

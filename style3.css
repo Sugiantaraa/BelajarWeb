@@ -1,0 +1,194 @@
+body {
+    font-family: 'Consolas', 'Fira Code', 'Courier New', monospace;
+    margin: 0;
+    padding: 25px;
+    background-color: #0d0e15;
+    color: #00ffcc;
+}
+
+#header-utama {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #00f3ff;
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.4), inset 0 0 15px rgba(0, 243, 255, 0.2);
+    margin-bottom: 25px;
+    background-color: #121526;
+}
+
+#header-utama h1 {
+    margin: 0;
+    color: #00f3ff;
+    text-shadow: 0 0 8px #00f3ff;
+    letter-spacing: 2px;
+}
+
+#container-utama {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#menu-navigasi {
+    width: 100%;
+}
+
+#menu-navigasi ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+#menu-navigasi a {
+    display: block;
+    padding: 10px 20px;
+    color: #ff0055;
+    text-decoration: none;
+    border: 1px solid #ff0055;
+    background: #121526;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+#menu-navigasi a:hover, #menu-navigasi a.active {
+    background: #ff0055;
+    color: #0d0e15;
+    box-shadow: 0 0 12px #ff0055;
+}
+
+#sidebar {
+    width: 260px;
+    border: 1px solid #00f3ff;
+    background: #121526;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.3);
+    text-align: center;
+}
+
+#sidebar h3 {
+    color: #00f3ff;
+    border-bottom: 1px dashed #00f3ff;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.img-prestasi {
+    width: 100%;
+    border: 1px solid #ff0055;
+    filter: saturate(120%);
+    box-shadow: 0 0 8px rgba(255, 0, 85, 0.5);
+}
+
+#konten-utama {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#biodata {
+    border: 1px solid #00ffcc;
+    background: #121526;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+}
+
+#biodata h2 {
+    color: #00ffcc;
+    border-bottom: 1px solid #00ffcc;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.tb-biodata {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tb-biodata th {
+    text-align: left;
+    color: #ff0055;
+    padding: 10px 5px;
+    border-bottom: 1px solid #22273e;
+}
+
+.tb-biodata td {
+    color: #00ffcc;
+    padding: 10px 5px;
+    border-bottom: 1px solid #22273e;
+}
+
+.link-external {
+    color: #00f3ff;
+    transition: all 0.3s ease;
+}
+
+.link-external:hover{
+    text-shadow: 0 0 8px #00f3ff;
+}
+
+#sosmed-teman {
+
+    border: 1px solid #ff0055;
+    background: #121526;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 0, 85, 0.3);
+}
+
+#sosmed-teman h2 {
+    color: #ff0055;
+    margin-top: 0;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: #8892b0;
+    margin-bottom: 20px;
+}
+
+.grid-teman {
+    display: flex;
+    gap: 20px;
+}
+
+.card-teman {
+    flex: 1;
+    border: 1px solid #00f3ff;
+    background: #0d0e15;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card-teman:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 12px #00f3ff;
+}
+
+.img-profile {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ff0055;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.card-teman:hover .img-profile {
+    filter: grayscale(0%);
+}
+
+.info-teman h3 {
+    margin: 10px 0 5px 0;
+    color: #00f3ff;
+}
+
+.info-teman p {
+    margin: 0;
+    color: #ff0055;
+    font-size: 13px;
+}
